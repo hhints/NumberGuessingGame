@@ -26,7 +26,7 @@ def main():
         attemptCount += 1
         print("attempt left: ", attempt)
         if (userInput == number):
-            print("💐Congratulations! You guessed the correct number in 4 attempts.💐")
+            print("Congratulations! You guessed the correct number in 4 attempts.")
         elif int(userInput) < number:
             lowerBound = max(lowerBound, int(userInput)+1)
             # if(attempt>3):
